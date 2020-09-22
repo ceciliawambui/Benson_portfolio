@@ -1,20 +1,21 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Merriweather', serif;
   color: #fff;
-  /*position: relative;*/
-  /*background: transparent;*/
+  position: relative;
+  background: transparent;
+  background-color: #000000;
 }
 
-body::before {
+/*body::before {
   content: "";
   position: fixed;
   background: #000000 ;
-  background-size: cover;
+  background-size: auto;
   left: 0;
   right: 0;
   top: 0;
   height: 100vh;
-}
+}*/
 
 *{
   box-sizing: border-box;
@@ -59,45 +60,75 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/*h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-#header {
+/*#header {
   position: relative;
   height: 100vh;
   align-items: left;
   z-index: 997;
   overflow-y: auto;
-}
-#header h1 {
-  font-size: 26px;
-  font-weight: 250;
-  font-family: Times, "Times New Roman", serif;
+}*/
+#h1 {
+  font-size: 10px;
+  font-weight: 80;
+  font-family: 'Merriweather', serif;
+
+  
 }
 
-#header h1 a, #header h1 a:hover {
+#h1 a, #h1 a:hover {
   color: #fff;
   line-height: 1;
   display: none;
 }
+#my_name{
+  margin-left: -124px;
+}
+.img{
+  border-radius: 8%;
+  padding: 10px;
+ 
+
+}
+
+#myDiv{
+  text-align: left;
+  padding-right: 0%;
+  }
+  
+#mySpan{
+  writing-mode: vertical-lr; 
+  transform: rotate(180deg);
+  font-weight: bold ;
+  font-size: large;
+  font-family: 'Merriweather', serif;
+}
+#para{
+  margin-left: 40px;
+  margin-top: 1px;
+  font-size: 13px;
+
+}
 
 
 @media (max-width: 992px) {
-  #header h1 {
+  #h1 {
     font-size: 26px;
   }
-  #header h2 {
+  #h2 {
     font-size: 20px;
     line-height: 30px;
   }
   
-  /*#header .container {
-    display: flex;
+  .container {
+    display: contents;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
   }
-  */
+  
 }
 
 /*--------------------------------------------------------------
