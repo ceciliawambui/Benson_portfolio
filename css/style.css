@@ -20,23 +20,6 @@ body {
 *{
   box-sizing: border-box;
 }
-/* Set additional styling options for the columns 
-.column {
-float: left;
-}*/
-
-/* Set width length for the left, right and middle columns */
-.col-md-4 {
-width: 20%;
-}
-
-.col-md-4 {
-width: 30%;
-}
-
-.col-md-4 {
-width: 50%;
-}
 
 .row:after {
 content: "";
@@ -71,10 +54,11 @@ a:hover {
   z-index: 997;
   overflow-y: auto;
 }*/
-#h1 {
-  font-size: 10px;
-  font-weight: 80;
+/*#h1 {
+  font-size: 5px;
+  font-weight: 20;
   font-family: 'Merriweather', serif;
+  padding: -10px;
 
   
 }
@@ -83,15 +67,15 @@ a:hover {
   color: #fff;
   line-height: 1;
   display: none;
+  font-size: small;
 }
-#my_name{
+#m-1{
   margin-left: -124px;
-}
-.img{
-  border-radius: 8%;
-  padding: 10px;
- 
-
+}*/
+#my_name{
+  font-size: 20px;
+  padding-top: 10px;
+  font-family: 'Merriweather', serif; 
 }
 
 #myDiv{
@@ -105,22 +89,37 @@ a:hover {
   font-weight: bold ;
   font-size: large;
   font-family: 'Merriweather', serif;
+  margin-right:- 100px;
+  margin-bottom: -80px;
+  margin-left: -40px ;
+
+}
+#mySpan1{
+  writing-mode: vertical-lr; 
+  transform: rotate(180deg);
+  font-weight: bold ;
+  font-size: large;
+  font-family: 'Merriweather', serif;
+  margin-right:- 100px;
+  margin-bottom: -80px;
+  margin-left: 10px ;
+
 }
 #para{
-  margin-left: 40px;
-  margin-top: 1px;
+ 
   font-size: 13px;
+  margin-top:-60px
 
 }
 
 
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
   #h1 {
-    font-size: 26px;
+    font-size: 10px;
   }
   #h2 {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 10px;
+    line-height: 2px;
   }
   
   .container {
@@ -130,7 +129,7 @@ a:hover {
   }
   
 }
-
+*/
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -265,7 +264,7 @@ a:hover {
   color: #fff;
 }
 
-/* Header Top */
+/* Header Top 
 #header.header-top {
   height: 80px;
   position: fixed;
@@ -300,4 +299,4 @@ a:hover {
   #header.header-top h1 {
     font-size: 26px;
   }
-}
+}*/
