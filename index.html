@@ -44,7 +44,7 @@
   <div class="container">
     <!--<div class="row">-->
     <div class="col d-flex align-items-center">
-      <h1 class="m-2" style="flex-grow:40;" id= "my_name">Benson Njogu</h1>
+      <h1 class="m-2" style="flex-grow:40;" id="my_name">Benson Njogu</h1>
       <div class="d-inline">
         <a href="" class="github"><i class="fa fa-github" aria-hidden="true"></i></a>
         <a href="" class="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
@@ -86,27 +86,72 @@
       <div id="myDiv">
 
         <span id="mySpan1"> Education & Experience </span>
-        <svg height="400" width="450">
-          <path id="lineAB" d="M 50 10 L 90 10" stroke="white" stroke-width="2" fill="none" />
-          
-            <!--<path id="lineBC" d="M 250 50 l 150 300" stroke="red" stroke-width="3" fill="none" />
-            <path d="M 175 200 l 150 0" stroke="green" stroke-width="3" fill="none" />
-            <path d="M 100 350 q 150 -300 300 0" stroke="blue" stroke-width="5" fill="none" />-->
-            <!-- Mark relevant points -->
-            <g stroke="white" stroke-width="1" fill="white">
-              <circle id="pointA" cx="90" cy="10" r="2" />
-              
-              <!--<circle id="pointB" cx="250" cy="50" r="3" />
-              <circle id="pointC" cx="400" cy="350" r="3" />-->
-            </g>
-            <!-- Label the points -->
-            <g font-size="10" font-family="sans-serif" fill="white" stroke="none" text-anchor="middle">
-              <text x="100" y="15" dx="-80">2018</text>
-            
-              <!--<text x="250" y="50" dy="-10">B</text>
-              <text x="400" y="350" dx="30">C</text>-->
-            </g>
-            Sorry, your browser does not support inline SVG.
+        <svg height="450" width="450">
+          <path id="lineAB" d="M 50 5 L 100 5" stroke="white" stroke-width="1" fill="none" />
+          <!--<path id="lineA1B" d="M 50 20 L 90 20" stroke="white" stroke-width="2" fill="none" />
+          <line x1="90" y1="20" x2="90" y2="90" style="stroke:white;stroke-width:2" />-->
+          <path id="lineA1B" d="M 50 300 L 100 300" stroke="white" stroke-width="1" fill="none" />
+
+          <!--<path id="lineBC" d="M 250 50 l 150 300" stroke="red" stroke-width="3" fill="none" />
+
+          <path d="M 90 90 l 20 0" stroke="white" stroke-width="3" fill="none" />-->
+
+          <!--<path d="M 50 20 q 70 -10 60 90 q 70 0 80 0 M 50 70" stroke="white" stroke-width="2" fill="none" />
+          <path d="M 10 10 C 20 20, 40 20, 50 10" stroke="white" fill="none" />
+          <path d="M 70 10 C 70 20, 110 20, 110 10" stroke="white" fill="none" />
+          <path d="M 130 10 C 120 20, 180 20, 170 10" stroke="white" fill="transparent" />-->
+          <path d="M 50 10 C 110 0, 40 70, 100 60" stroke="white" fill="transparent" stroke-width="1"/>
+          <!--<path d="M 70 60 C 70 80, 110 80, 110 60" stroke="white" fill="transparent" />
+          <path d="M 130 60 C 120 80, 180 80, 170 60" stroke="white" fill="transparent" />
+          <path d="M 10 110 C 20 140, 40 140, 50 110" stroke="white" fill="transparent" />
+          <path d="M 70 110 C 70 140, 110 140, 110 110" stroke="white" fill="transparent" />
+          <path d="M 130 110 C 120 140, 180 140, 170 110" stroke="white" fill="transparent" />-->
+          <!-- Mark relevant points -->
+          <g stroke="white" stroke-width="1" fill="white">
+            <circle id="pointA" cx="100" cy="5" r="2" />
+            <circle id="pointA" cx="100" cy="60" r="2" />
+            <circle id="pointA1" cx="100" cy="300" r="2" />
+
+            <!--<circle id="pointB" cx="250" cy="50" r="3" />
+            <circle id="pointC" cx="400" cy="350" r="3" />-->
+          </g>
+          <!-- Label the points -->
+          <g font-size="10" font-family="sans-serif" fill="white" stroke="none" text-anchor="middle">
+            <text x="100" y="15" dx="-80">2018</text>
+            <text x="100" y="305" dx="-80">2012</text>
+            <text x="170" y="310" dy="-10" class="heavy">Bsc Computer Science
+            </text>
+            <text x="215" y="325" dy="-10" class="small">
+              Jomo Kenyatta University of Agriculture
+            </text>
+            <text x="150" y="340" dy="-10" class="small">
+
+              and Technology</text>
+
+            <text x="200" y="20" dy="-10" class="heavy">Msc Computational Intelligence
+            </text>
+            <text x="170" y="35" dy="-10" class="small">University of Nairobi</text>
+            <text x="178" y="75" dy="-10" class="heavy"> Executive Data Science</text>
+            <text x="180" y="90" dy="-10" class="small"> John Hopkins University</text>
+            <!--<text x="400" y="350" dx="30">C</text>-->
+          </g>
+
+          <!--<path d="M 50,120 C 130,50 250,150 280,100" />
+         
+          <path d="M10,10 Q100,30 0,0 T400,300" fill="none" stroke="red" stroke-width="2" />-->
+          <!-- End points 
+          <g fill="black">
+            <circle cx="200" cy="300" r="10" />
+            <circle cx="600" cy="300" r="10" />
+            <circle cx="1000" cy="300" r="10" />
+          </g>
+          <!-- Control points and lines from end points to control points 
+          <g fill="#888888">
+            <circle cx="200" cy="50" r="10" />
+            <circle cx="400" cy="550" r="10" />
+          </g>
+          <path d="M200,300 L400,50 L600,300 
+           L800,550 L100,300" fill="none" stroke="#888888" stroke-width="2" />-->
         </svg>
 
       </div>

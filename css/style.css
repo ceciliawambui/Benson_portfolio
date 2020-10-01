@@ -5,6 +5,12 @@ body {
   background: transparent;
   background-color: #000000;
 }
+.small 
+{ font: italic 11px 'Merriweather';
+}
+.heavy
+{ font: normal 11px 'Merriweather';
+}
 
 /*body::before {
   content: "";
