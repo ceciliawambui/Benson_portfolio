@@ -9,12 +9,26 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Castoro', serif;
+  font-size: larger;
   color: #fff;
   position: relative;
   background: transparent;
 }
+#mySpan{
+  transform: rotate(-90 90,120);
 
+
+}
+#my_name{
+  font-family:'Castoro', serif;;
+}
+hr{
+  border: 1px solid white;
+}
+.d-inline{
+  color: white;
+}
 body::before {
   content: "";
   position: fixed;
